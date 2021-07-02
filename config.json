@@ -1,0 +1,9 @@
+{
+    "mail" : {
+        "service" : "gmail",
+        "user" : "ZoomSafeEmail@gmail.com",
+        "pass" : "Zoom12##"
+    },
+    "port" : 3339,
+    "tokenLength" : 1000000000000
+}

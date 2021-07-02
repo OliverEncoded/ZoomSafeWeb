@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zoom Safe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+  <div class="newCard">
+      <input placeholder="Name" id="inName">
+      <input placeholder="ID" id="inId">
+      <input placeholder="Password" id="inPassword">
+      <input placeholder="Link" type="url" id="inLink">
+      <button onclick="newCard()">Create new card</button>
+      <button class="right" onclick="logout()">Logout</button>
+  </div>
+
+    <div id="links"></div>
+
+  <input type="text" id="linkBox" class="ghost">
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="links.js"></script>
+</body>
+
+</html>

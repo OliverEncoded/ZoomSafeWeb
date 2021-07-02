@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zoom Safe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+  <div class="loginBox">
+    <p><input class="inputLogin" placeholder="Username" id="username"></p>
+    <p><input class="inputLogin" type="password" placeholder="Password" id="password"></p>
+    <p><button class="button" onclick="login()">Enter</button></p>
+    <input id="rem" type="checkbox"> Remember me
+     <h4><a href="newUser.html">Create An Account</a></h4>
+     <h4><a onclick='alert("If you have forgoten your password please send an email to ZoomSafeEmail@gmail.com with what you want your new password to be")'>Forgot Your Password</a></h4>
+  </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>
