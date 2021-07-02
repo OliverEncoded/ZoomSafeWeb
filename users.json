@@ -1,10 +1,10 @@
 {
-          "antinoid": {
+          "example": {
                     "password": "123",
-                    "email": "socksinthewash@gmail.com"
+                    "email": "example@gmail.com"
           },
-          "Harsh": {
-                    "password": "Hiharsh",
-                    "email": "tennowreno@gmail.com"
+          "example2": {
+                    "password": "123",
+                    "email": "example2@gmail.com"
           }
 }
